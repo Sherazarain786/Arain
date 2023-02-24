@@ -126,7 +126,7 @@ logo3 = '   \n\x1b[1;32m       d8888 8888888b.  8888888 Y88b   d88P     d8888 88
 
 def linex():
 
-	print('\033[1;32m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')def ud():
+	print('\033[1;32mWAIT CHECKINGFORUPDATE')def ud():
 
     os.system('clear')
 
